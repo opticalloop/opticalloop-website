@@ -1,0 +1,9 @@
+nav{
+    position: fixed;
+}
+
+article{
+    text-align: center;
+    font-size: 500%;
+    font-family: "DM Sans", sans-serif;
+}
