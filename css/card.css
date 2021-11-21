@@ -127,3 +127,8 @@ section::after{
     transform: translateY(0px);
     opacity: 1;
 }
+
+.container .card .sci li a{
+    color: #fff;
+    font-size: 30px;
+}
