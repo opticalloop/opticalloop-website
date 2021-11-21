@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>opticalloop</title>
+
+    <meta name="title" content="opticalloop | OCR recognition for sudokus"/>
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png"> -->
+
 
     <!--Awsomefont-->
     <script src="https://kit.fontawesome.com/edf1062117.js" crossorigin="anonymous"></script>
@@ -15,40 +22,21 @@
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/navbar.css">
 
-    <!--JavaScript-->
-    <script src="js/nav.js"></script>
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </head>
 <body>
-    <script>
-        const toggleButton = document.getElementById('toggle-button');
-        const naviList = document.getElementById('navi-list');
-    
-        toogleButton.addEventListener('click', () => {
-            naviList.classList.toggle('active');
-    })
-    </script>
-    
     <nav class="navbar">
-        <div>
-            <a href="#"><img class="primary-icon" src="picture/logoOpticalloop.png"></a>
-        </div>
-        <ul class="nav-list" id="navi-list" >
-            <li class="list-item">
-                <a href="#">Opticalloop</a>
-            </li>
-            <li class="list-item">
-                <a href="#bodybis">About us</a>
-            </li>
-            <li class="list-item">
-                <a href="#">Our contact</a>
-            </li>
-        </ul>
-        <div class="menu" id="toggle-button">
-            <div class="menu-line"></div>
-            <div class="menu-line"></div>
-            <div class="menu-line"></div>
-        </div>
+        
+        <a href="#"><img class="primary-icon" src="picture/logoOpticalloop.png"></a>
+        <a href="#" class="nav-item">Opticalloop</a>
+        <a href="#" class="nav-item">About us</a>
+        <a href="#" class="nav-item">Contact</a>
+    
+        <a class="menu-mobile">
+            <i class="fa fa-bars"></i>
+        </a>
     </nav>
     <img
         class="bigimage"
@@ -135,4 +123,8 @@
         </section>
     </div>
 </body>
+
+<!--JavaScript-->
+<script src="js/nav.js"></script>
+
 </html>
