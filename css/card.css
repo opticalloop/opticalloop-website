@@ -12,14 +12,27 @@
     min-height: 100vh;
 }
 
+@media screen and (max-width: 1400px){
+    .container{
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 40px 0;
+        width: 100%;
+    }
+}
+
 .container{
     position: relative;
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     margin: 40px 0;
+    width: 100%;
 }
 
 .container .card{
