@@ -1,14 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .bodybis{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #161623;
     min-height: 100vh;
 }
 
