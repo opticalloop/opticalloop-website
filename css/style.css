@@ -15,9 +15,55 @@ nav{
     position: fixed;
 }
 
-#groupname{
+#explanation{
     text-align: center;
-    font-size: 5vw;
+    font-size: 1.5vw;
     font-family: "DM Sans", sans-serif;
     color: whitesmoke;
+}
+
+#groupname{
+    font-size: 5vw;
+    font-family: "DM Sans", sans-serif;
+        text-align:center;
+        background:linear-gradient (
+            rgb(16, 16, 42) 0%,
+            rgb(16, 16, 42) 45%,
+            rgb(38, 38, 47) 46%,
+            rgb(38, 38, 47) 54%,  
+            rgb(16, 16, 42) 54%,
+            rgb(16, 16, 42) 100%);
+        background:-webkit-linear-gradient(
+            rgb(16, 16, 42) 0%,
+            rgb(16, 16, 42) 45%,
+            rgb(38, 38, 47) 46%,
+            rgb(38, 38, 47) 54%,  
+            rgb(16, 16, 42) 54%,
+            rgb(16, 16, 42) 100%);
+        background: -moz-linear-gradient(
+            rgb(16, 16, 42) 0%,
+            rgb(16, 16, 42) 45%,
+            rgb(38, 38, 47) 46%,
+            rgb(38, 38, 47) 54%,  
+            rgb(16, 16, 42)54%,
+            rgb(16, 16, 42) 100%);
+        background:-ms-linear-gradient(
+            rgb(16, 16, 42) 0%,
+            rgb(16, 16, 42) 45%,
+            rgb(38, 38, 47) 46%,
+            rgb(38, 38, 47) 54%,  
+            rgb(16, 16, 42) 54%,
+            rgb(16, 16, 42) 100%);
+        background: -o-linear-gradient(
+            rgb(16, 16, 42) 0%,
+            rgb(16, 16, 42) 45%,
+            rgb(38, 38, 47) 46%,
+            rgb(38, 38, 47) 54%,  
+            rgb(16, 16, 42) 54%,
+            rgb(16, 16, 42) 100%);    
+}
+
+h1 span{
+    background:rgb(16, 16, 42);
+    padding: 0 20px
 }
