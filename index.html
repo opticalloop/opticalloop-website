@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/aboutProjet.css">
 
     <!--Jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -30,16 +31,17 @@
 <body>
     <nav class="navbar">
         
-        <a href="#"><img class="primary-icon" src="picture/logoOpticalloop.png" alt="logoOpticalloop"></a>
+        <a href="#top"><img class="primary-icon" src="picture/logoOpticalloop.png" alt="logoOpticalloop" href="#"></a>
         <a href="#presentation" class="nav-item">About us</a>
         <a href="https://github.com/opticalloop/OCR/releases/" target="blank" class="nav-item">Download</a>
-        <a href="#" class="nav-item">Contact</a>
+        <a href="#aboutProjet" class="nav-item">About the projet</a>
     
         <a class="menu-mobile">
             <i class="fa fa-bars"></i>
         </a>
     </nav>
     <img
+        id="top"
         class="bigimage"
         src= "picture/logoOpticalloop.png"
         alt= "opticalloop's logo"
@@ -122,6 +124,14 @@
             </div>
           </div>
         </section>
+    </div>
+    <div id="aboutProjet" class="reveal reveal-visible">
+        <h2><span>Our Projet</span></h2>
+        <div id="sudoku">
+            <h4>Our Sudoku Generator</h4>
+            <article>For the need of our neural network, we need some database to train it, so we made our own sudoku generator</article>
+            <img src="picture/generateur.gif" alt="generateur de sudoku"  height= 35% width= 35%></img>
+        </div>
     </div>
 </body>
 

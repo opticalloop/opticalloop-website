@@ -1,0 +1,53 @@
+h2{
+    text-align:center;
+    font-size:30px;
+    background:linear-gradient (
+        rgb(16, 16, 42) 0%,
+        rgb(16, 16, 42) 45%,
+        rgb(38, 38, 47) 46%,
+        rgb(38, 38, 47) 54%,  
+        rgb(16, 16, 42) 54%,
+        rgb(16, 16, 42) 100%);
+    background:-webkit-linear-gradient(
+        rgb(16, 16, 42) 0%,
+        rgb(16, 16, 42) 45%,
+        rgb(38, 38, 47) 46%,
+        rgb(38, 38, 47) 54%,  
+        rgb(16, 16, 42) 54%,
+        rgb(16, 16, 42) 100%);
+    background: -moz-linear-gradient(
+        rgb(16, 16, 42) 0%,
+        rgb(16, 16, 42) 45%,
+        rgb(38, 38, 47) 46%,
+        rgb(38, 38, 47) 54%,  
+        rgb(16, 16, 42)54%,
+        rgb(16, 16, 42) 100%);
+    background:-ms-linear-gradient(
+        rgb(16, 16, 42) 0%,
+        rgb(16, 16, 42) 45%,
+        rgb(38, 38, 47) 46%,
+        rgb(38, 38, 47) 54%,  
+        rgb(16, 16, 42) 54%,
+        rgb(16, 16, 42) 100%);
+    background: -o-linear-gradient(
+        rgb(16, 16, 42) 0%,
+        rgb(16, 16, 42) 45%,
+        rgb(38, 38, 47) 46%,
+        rgb(38, 38, 47) 54%,  
+        rgb(16, 16, 42) 54%,
+        rgb(16, 16, 42) 100%);    
+    }
+
+h2 span{
+    background:rgb(16, 16, 42);
+    padding:0 20px;
+    }
+
+#sudoku{
+    text-align:center;
+    padding-top: 50px;
+}
+
+#sudoku img{
+    padding-top: 20px;
+}
