@@ -51,4 +51,14 @@ h2 span{
 #sudoku img{
     padding-top: 20px;
     padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+#generatorhref:hover{
+    color:rgb(38, 38, 47);
+    transition: all 0.4s;
+}
+
+#endgenerator{
+    padding-bottom: 50px;
 }
